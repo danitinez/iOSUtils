@@ -1,6 +1,6 @@
 
 import UIKit
-extension UIAlertController {
+public extension UIAlertController {
   
   
   typealias AlertActionHandler = ((_ action: UIAlertAction)->Void)
