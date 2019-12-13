@@ -13,6 +13,7 @@
 		683E3BBD23A145EC00293E47 /* UIAlertController+Shorthands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E3BBC23A145EC00293E47 /* UIAlertController+Shorthands.swift */; };
 		683E3BBF23A1461C00293E47 /* UIApplication+AddOns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E3BBE23A1461C00293E47 /* UIApplication+AddOns.swift */; };
 		683E3BD723A18C7300293E47 /* UpdateChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E3BD623A18C7300293E47 /* UpdateChecker.swift */; };
+		68F167EA23A3C03B002FCA0D /* String+AddOns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F167E923A3C03B002FCA0D /* String+AddOns.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		683E3BBC23A145EC00293E47 /* UIAlertController+Shorthands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Shorthands.swift"; sourceTree = "<group>"; };
 		683E3BBE23A1461C00293E47 /* UIApplication+AddOns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+AddOns.swift"; sourceTree = "<group>"; };
 		683E3BD623A18C7300293E47 /* UpdateChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateChecker.swift; sourceTree = "<group>"; };
+		68F167E923A3C03B002FCA0D /* String+AddOns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+AddOns.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				683E3BBC23A145EC00293E47 /* UIAlertController+Shorthands.swift */,
 				682E323C2163FA9600BFD0DC /* UIColor+AddOns.swift */,
 				683E3BBE23A1461C00293E47 /* UIApplication+AddOns.swift */,
+				68F167E923A3C03B002FCA0D /* String+AddOns.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F167EA23A3C03B002FCA0D /* String+AddOns.swift in Sources */,
 				683E3BD723A18C7300293E47 /* UpdateChecker.swift in Sources */,
 				682E323D2163FA9600BFD0DC /* UIColor+AddOns.swift in Sources */,
 				683E3BBD23A145EC00293E47 /* UIAlertController+Shorthands.swift in Sources */,
