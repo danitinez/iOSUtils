@@ -10,6 +10,7 @@
 		6814584F212C576400231B1E /* iOSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6814584D212C576400231B1E /* iOSUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6814585D212C57A600231B1E /* CollectionCellWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6814585C212C57A600231B1E /* CollectionCellWrapper.swift */; };
 		682E323D2163FA9600BFD0DC /* UIColor+AddOns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E323C2163FA9600BFD0DC /* UIColor+AddOns.swift */; };
+		683809FB23A8062D000CEB06 /* UIViewController+AddOns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683809FA23A8062D000CEB06 /* UIViewController+AddOns.swift */; };
 		683E3BBD23A145EC00293E47 /* UIAlertController+Shorthands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E3BBC23A145EC00293E47 /* UIAlertController+Shorthands.swift */; };
 		683E3BBF23A1461C00293E47 /* UIApplication+AddOns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E3BBE23A1461C00293E47 /* UIApplication+AddOns.swift */; };
 		683E3BD723A18C7300293E47 /* UpdateChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E3BD623A18C7300293E47 /* UpdateChecker.swift */; };
@@ -22,6 +23,7 @@
 		6814584E212C576400231B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6814585C212C57A600231B1E /* CollectionCellWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCellWrapper.swift; sourceTree = "<group>"; };
 		682E323C2163FA9600BFD0DC /* UIColor+AddOns.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AddOns.swift"; sourceTree = "<group>"; };
+		683809FA23A8062D000CEB06 /* UIViewController+AddOns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AddOns.swift"; sourceTree = "<group>"; };
 		683E3BBC23A145EC00293E47 /* UIAlertController+Shorthands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Shorthands.swift"; sourceTree = "<group>"; };
 		683E3BBE23A1461C00293E47 /* UIApplication+AddOns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+AddOns.swift"; sourceTree = "<group>"; };
 		683E3BD623A18C7300293E47 /* UpdateChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateChecker.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				682E323C2163FA9600BFD0DC /* UIColor+AddOns.swift */,
 				683E3BBE23A1461C00293E47 /* UIApplication+AddOns.swift */,
 				68F167E923A3C03B002FCA0D /* String+AddOns.swift */,
+				683809FA23A8062D000CEB06 /* UIViewController+AddOns.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683809FB23A8062D000CEB06 /* UIViewController+AddOns.swift in Sources */,
 				68F167EA23A3C03B002FCA0D /* String+AddOns.swift in Sources */,
 				683E3BD723A18C7300293E47 /* UpdateChecker.swift in Sources */,
 				682E323D2163FA9600BFD0DC /* UIColor+AddOns.swift in Sources */,
