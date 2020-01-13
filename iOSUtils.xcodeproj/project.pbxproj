@@ -14,6 +14,7 @@
 		683E3BBD23A145EC00293E47 /* UIAlertController+Shorthands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E3BBC23A145EC00293E47 /* UIAlertController+Shorthands.swift */; };
 		683E3BBF23A1461C00293E47 /* UIApplication+AddOns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E3BBE23A1461C00293E47 /* UIApplication+AddOns.swift */; };
 		683E3BD723A18C7300293E47 /* UpdateChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E3BD623A18C7300293E47 /* UpdateChecker.swift */; };
+		68A705C823CCB149007646AC /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A705C723CCB149007646AC /* NibView.swift */; };
 		68F167EA23A3C03B002FCA0D /* String+AddOns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F167E923A3C03B002FCA0D /* String+AddOns.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		683E3BBC23A145EC00293E47 /* UIAlertController+Shorthands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Shorthands.swift"; sourceTree = "<group>"; };
 		683E3BBE23A1461C00293E47 /* UIApplication+AddOns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+AddOns.swift"; sourceTree = "<group>"; };
 		683E3BD623A18C7300293E47 /* UpdateChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateChecker.swift; sourceTree = "<group>"; };
+		68A705C723CCB149007646AC /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
 		68F167E923A3C03B002FCA0D /* String+AddOns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+AddOns.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				6814585C212C57A600231B1E /* CollectionCellWrapper.swift */,
+				68A705C723CCB149007646AC /* NibView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				68F167EA23A3C03B002FCA0D /* String+AddOns.swift in Sources */,
 				683E3BD723A18C7300293E47 /* UpdateChecker.swift in Sources */,
 				682E323D2163FA9600BFD0DC /* UIColor+AddOns.swift in Sources */,
+				68A705C823CCB149007646AC /* NibView.swift in Sources */,
 				683E3BBD23A145EC00293E47 /* UIAlertController+Shorthands.swift in Sources */,
 				6814585D212C57A600231B1E /* CollectionCellWrapper.swift in Sources */,
 				683E3BBF23A1461C00293E47 /* UIApplication+AddOns.swift in Sources */,

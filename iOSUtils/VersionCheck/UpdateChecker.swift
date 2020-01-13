@@ -26,8 +26,14 @@ public class UpdateChecker {
               completion(nil, VersionError.invalidBundleInfo)
             return nil
       }
-      
-      let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+    
+      let urlconfig = URLSessionConfiguration.default
+      urlconfig.timeoutIntervalForRequest = 4
+      urlconfig.timeoutIntervalForResource = 4
+    
+      let session = URLSession(configuration: urlconfig)
+    
+      let task = session.dataTask(with: url) { (data, response, error) in
           do {
               if let error = error { throw error }
               guard let data = data else { throw VersionError.invalidResponse }
