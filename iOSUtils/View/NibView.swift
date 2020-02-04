@@ -11,7 +11,7 @@ import UIKit
 @IBDesignable
 open class NibView: UIView {
   
-  @IBOutlet weak var view: UIView!
+  @IBOutlet open weak var view: UIView!
   
   override init(frame: CGRect) {
       super.init(frame: frame)

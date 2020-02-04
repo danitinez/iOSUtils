@@ -39,7 +39,7 @@ public class UpdateChecker {
               guard let data = data else { throw VersionError.invalidResponse }
               let json = try JSONSerialization.jsonObject(with: data, options: [.allowFragments]) as? [String: Any]
               guard let result = (json?["results"] as? [Any])?.first as? [String: Any], let version = result["version"] as? String else {
-                  throw VersionError.invalidResponse
+                    throw VersionError.invalidResponse
               }
               completion(version != currentVersion, nil)
           } catch {
