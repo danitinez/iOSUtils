@@ -6,7 +6,7 @@ public extension UIAlertController {
   typealias AlertActionHandler = ((_ action: UIAlertAction)->Void)
   typealias SelectionHandler = ((_ actionIndex: Int)->Void)
   
-  static func showGlobalAlertWithTitle(_ title: String, message: String, okTitle: String?, cancelTitle: String?,
+  static func showGlobalAlertWithTitle(_ title: String, message: String, okTitle: String?, cancelTitle: String?, isDestructive: Bool = false,
                                        okHandler: AlertActionHandler?, cancelHandler: AlertActionHandler? ) {
     
     let controller = UIAlertController(title: title, message: message, preferredStyle: .alert)
@@ -16,7 +16,9 @@ public extension UIAlertController {
       controller.addAction(cancelAction)
     }
     
-    let okAction = UIAlertAction(title: okTitle ?? NSLocalizedString("Ok", comment: "Ok string"), style: .default, handler: okHandler)
+    let okAction = UIAlertAction(title: okTitle ?? NSLocalizedString("Ok", comment: "Ok string"),
+                                 style: isDestructive ? .destructive : .default,
+                                 handler: okHandler)
     controller.addAction(okAction)
     
     if let showOn = UIApplication.topViewController() {
@@ -36,6 +38,8 @@ public extension UIAlertController {
     let sheetOptions: [SheetOptions] = options.map{SheetOptions.default(message: $0)}
     showActionSheet(title, message: message, options: sheetOptions, selectionHandler: selectionHandler)
   }
+  
+  
 
   static func showActionSheet(_ title: String, message: String, options:[SheetOptions], selectionHandler: @escaping SelectionHandler){
 
