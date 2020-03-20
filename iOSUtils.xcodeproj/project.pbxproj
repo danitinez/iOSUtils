@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680D5E0D242562E5004949E1 /* NSRegularExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680D5E0C242562E5004949E1 /* NSRegularExpression.swift */; };
 		6814584F212C576400231B1E /* iOSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6814584D212C576400231B1E /* iOSUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6814585D212C57A600231B1E /* CollectionCellWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6814585C212C57A600231B1E /* CollectionCellWrapper.swift */; };
 		682E323D2163FA9600BFD0DC /* UIColor+AddOns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E323C2163FA9600BFD0DC /* UIColor+AddOns.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		680D5E0C242562E5004949E1 /* NSRegularExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSRegularExpression.swift; sourceTree = "<group>"; };
 		6814584A212C576400231B1E /* iOSUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6814584D212C576400231B1E /* iOSUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSUtils.h; sourceTree = "<group>"; };
 		6814584E212C576400231B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				683E3BBE23A1461C00293E47 /* UIApplication+AddOns.swift */,
 				68F167E923A3C03B002FCA0D /* String+AddOns.swift */,
 				683809FA23A8062D000CEB06 /* UIViewController+AddOns.swift */,
+				680D5E0C242562E5004949E1 /* NSRegularExpression.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				683809FB23A8062D000CEB06 /* UIViewController+AddOns.swift in Sources */,
 				68F167EA23A3C03B002FCA0D /* String+AddOns.swift in Sources */,
 				683E3BD723A18C7300293E47 /* UpdateChecker.swift in Sources */,
+				680D5E0D242562E5004949E1 /* NSRegularExpression.swift in Sources */,
 				682E323D2163FA9600BFD0DC /* UIColor+AddOns.swift in Sources */,
 				68A705C823CCB149007646AC /* NibView.swift in Sources */,
 				683E3BBD23A145EC00293E47 /* UIAlertController+Shorthands.swift in Sources */,
