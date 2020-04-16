@@ -50,12 +50,12 @@ public extension UIAlertController {
   }
   
   
-  static func showGlobalInputAlert(title: String, message: String, okTitle: String? = nil, configHandler: ((UITextField)->Void)?=nil, okHandler: @escaping AlertActionHandler) {
+  static func showGlobalInputAlert(title: String, message: String, okTitle: String? = nil, cancelTitle: String? = "Cancel", configHandler: ((UITextField)->Void)?=nil, okHandler: @escaping AlertActionHandler) {
     let txtConfig = configHandler ?? {txtField -> Void in }
     self.showGlobalAlertWithTitle(title,
                                   message: message,
                                   okTitle: okTitle,
-                                  cancelTitle: nil,
+                                  cancelTitle: cancelTitle,
                                   isDestructive: false,
                                   textfieldConfiguration: txtConfig,
                                   okHandler: okHandler,
