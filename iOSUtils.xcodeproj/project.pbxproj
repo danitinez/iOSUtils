@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				68AEFBA2283FEE56007835FA /* Package.swift */,
-				6814584C212C576400231B1E /* iOSUtils */,
+				6814584C212C576400231B1E /* Sources */,
 				68436FA42448128000524083 /* iOS Utils Example */,
 				6814584B212C576400231B1E /* Products */,
 				68436FB7244812FC00524083 /* Frameworks */,
@@ -114,7 +114,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6814584C212C576400231B1E /* iOSUtils */ = {
+		6814584C212C576400231B1E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				683E3BD523A18B3F00293E47 /* VersionCheck */,
@@ -123,7 +123,7 @@
 				6814584D212C576400231B1E /* iOSUtils.h */,
 				6814584E212C576400231B1E /* Info.plist */,
 			);
-			path = iOSUtils;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		6814585B212C578600231B1E /* View */ = {
