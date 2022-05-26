@@ -71,6 +71,7 @@
 		68436FB12448128100524083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68436FB32448128100524083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68A705C723CCB149007646AC /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		68AEFBA2283FEE56007835FA /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		68F167E923A3C03B002FCA0D /* String+AddOns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+AddOns.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +97,7 @@
 		68145840212C576300231B1E = {
 			isa = PBXGroup;
 			children = (
+				68AEFBA2283FEE56007835FA /* Package.swift */,
 				6814584C212C576400231B1E /* iOSUtils */,
 				68436FA42448128000524083 /* iOS Utils Example */,
 				6814584B212C576400231B1E /* Products */,
