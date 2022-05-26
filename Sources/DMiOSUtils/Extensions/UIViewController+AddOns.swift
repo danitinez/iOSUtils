@@ -6,7 +6,7 @@
 //  Copyright © 2019 com.dm. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 // Put this piece of code anywhere you like
 public extension UIViewController {
